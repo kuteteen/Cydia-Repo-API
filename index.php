@@ -510,7 +510,7 @@ else
 
 
 
-    file_put_contents($cachefilename, $json);
+    file_put_contents($cachefilename, json_encode(json_decode($json, true)));
 
   } else {
     if(isset($_GET['pretty'])) {
