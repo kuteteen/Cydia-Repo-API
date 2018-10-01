@@ -6,11 +6,17 @@ A Cydia repo parsing API in PHP
 ## Methods
 
 `?url` Get a repo
+
 `?q=` Search Packages by Name
+
 `?id=` Get Package by ID 
+
 `?pretty` Indent the JSON from Minified
+
 `?extended` More Info (SHA256, SHA1, MD5sum, Architecture, Tag)
+
 `?releaseOnly` Only Returns the Release Info
+
 
 
 ## Examples
