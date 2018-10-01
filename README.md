@@ -1,2 +1,2 @@
 # Cydia-Repo-API
-Cydia repo parser
+A Cydia repo parsing API in PHP
